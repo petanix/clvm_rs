@@ -2,16 +2,16 @@ mod allocator;
 mod core_ops;
 mod cost;
 mod err_utils;
-mod f_table;
-mod more_ops;
+pub mod f_table;
+pub mod more_ops;
 mod node;
 mod number;
 mod op_utils;
 #[cfg(feature = "extension-module")]
 mod py;
 mod reduction;
-mod run_program;
-mod serialize;
+pub mod run_program;
+pub mod serialize;
 mod sha2;
 
 #[cfg(test)]
